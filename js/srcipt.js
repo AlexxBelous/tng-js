@@ -1,13 +1,17 @@
-/** Вывод Сумму положительных и отрицательных чисел
+/**  Замыкания
  *
- * 1. Создайте функцию "sumPositiveNegative", которая принимает массив
- * и суммирует отдельно положительные и отрицательные числа.
+ * 1. Создайте функцию "createGreeting", внутри которой создайте:
+ *  - переменную "greetingString" с значением "Hey, this is"
+ *    (объявите ее используя "let")
+ *  - функцию "greet" с одним параметром, которая должна возвращать
+ *    строку-приветствие на основании "greetingString" и параметра,
+ *    например, "Hey, this is Bob"
+ *  - функцию "changeGreeting" с одним параметром, которая должна
+ *    изменять значение переменной "greetingString"
  *
- * 2. Функция должна вернуть такой объект:
- *  {
- *    positive: 74, // сумма всех положительных чисел
- *    negative: -54 // сумма всех отрицательных чисел
- *  }
+ * 2. Функция "createGreeting" должна вернуть объект с двумя методами:
+ *  - greet
+ *  - changeGreeting
  */
 
 
@@ -56,28 +60,52 @@
 
 
 
-// const nums = [10, -12, 30, -1, -8, 0, 14, -33, 20];
 
-// function sumPositiveNegative(arr) {
-//   return arr.reduce(
-//     (sums, num) => {
-//       if (num > 0) {
-//         return {
-//           ...sums,
-//           positive: sums.positive + num,
-//         }
-//       }
 
-//       return {
-//         ...sums,
-//         negative: sums.negative + num,
-//       }
-//     },
-//     { positive: 0, negative: 0 }
-//   )
+
+
+
+
+
+
+
+
+
+// const createGreeting = () => {
+//   let greetingString = 'Hey, this is'
+
+//   function greet(name) {
+//     return `${greetingString} ${name}`
+//   }
+
+//   function changeGreeting(newGreeting) {
+//     greetingString = newGreeting
+//   }
+
+//   return {
+//     greet,
+//     changeGreeting,
+//   }
 // }
 
-// const result = sumPositiveNegative(nums)
+// const greeting1 = createGreeting()
 
-// console.log(result)
-// /* { positive: 74, negative: -54 } */ 
+// console.log(greeting1.greet('Bob'))
+// /* Hey, this is Bob */ 
+
+// greeting1.changeGreeting('Good Morning from')
+
+// console.log(greeting1.greet('Emily'))
+// /* Good Morning from Emily */ 
+
+// greeting1.changeGreeting('Good Evening')
+
+// console.log(greeting1.greet('Emily'))
+// /* Good Evening Emily */ 
+
+// /* ____________  */
+
+// const greeting2 = createGreeting()
+
+// console.log(greeting2.greet('Emily'))
+// /* Hey, this is Emily */ 
