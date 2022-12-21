@@ -72,12 +72,12 @@
 //   d: 12,
 // }
 
-// function sumObjectValues(nums) {
+// function sumObjectValues(numbers) {
 //   let sum = 0
 
-//   Object.keys(nums).forEach((key) => {
-//     if (typeof nums[key] === 'number') {
-//       sum += nums[key]
+//   Object.keys(numbers).forEach((key) => {
+//     if (typeof numbers[key] === 'number') {
+//       sum += numbers[key]
 //     }
 //   })
 
