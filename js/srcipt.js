@@ -80,4 +80,4 @@ function sumPositiveNegative(arr) {
 const result = sumPositiveNegative(nums)
 
 console.log(result)
-// { positive: 74, negative: -54 }
+/* { positive: 74, negative: -54 } */ 
