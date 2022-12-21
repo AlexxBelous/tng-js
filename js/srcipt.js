@@ -128,7 +128,7 @@
 
 
 
-// /* ----Создать заголовок H1 "DOM (Document Object Model)" */ 
+// /* ----Создать заголовок h1 и вставьте текст - "DOM (Document Object Model)" */ 
 // const header = document.createElement('h1');
 // header.textContent = 'DOM (Document Object Model)';
 
