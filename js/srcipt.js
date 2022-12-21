@@ -56,28 +56,28 @@
 
 
 
-const nums = [10, -12, 30, -1, -8, 0, 14, -33, 20];
+// const nums = [10, -12, 30, -1, -8, 0, 14, -33, 20];
 
-function sumPositiveNegative(arr) {
-  return arr.reduce(
-    (sums, num) => {
-      if (num > 0) {
-        return {
-          ...sums,
-          positive: sums.positive + num,
-        }
-      }
+// function sumPositiveNegative(arr) {
+//   return arr.reduce(
+//     (sums, num) => {
+//       if (num > 0) {
+//         return {
+//           ...sums,
+//           positive: sums.positive + num,
+//         }
+//       }
 
-      return {
-        ...sums,
-        negative: sums.negative + num,
-      }
-    },
-    { positive: 0, negative: 0 }
-  )
-}
+//       return {
+//         ...sums,
+//         negative: sums.negative + num,
+//       }
+//     },
+//     { positive: 0, negative: 0 }
+//   )
+// }
 
-const result = sumPositiveNegative(nums)
+// const result = sumPositiveNegative(nums)
 
-console.log(result)
-/* { positive: 74, negative: -54 } */ 
+// console.log(result)
+// /* { positive: 74, negative: -54 } */ 
