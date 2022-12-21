@@ -67,7 +67,7 @@
 
 
 
-// const nums = [10, -12, 30, -1, -8, 0, 14, -33, 20];
+// const numbers = [10, -12, 30, -1, -8, 0, 14, -33, 20];
 
 // function sumPositiveNegative(arr) {
 //   return arr.reduce(
@@ -88,7 +88,7 @@
 //   )
 // }
 
-// const result = sumPositiveNegative(nums)
+// const result = sumPositiveNegative(numbers)
 
 // console.log(result)
 // /* { positive: 74, negative: -54 } */ 
