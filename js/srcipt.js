@@ -1,12 +1,16 @@
-/** ЗАДАЧА 12 - Создание объекта
+/** Строка заглавными буквами
  *
- * 1. Создайте объект с тремя свойствами:
- *  - name
- *  - surname
- *  - favoriteNumber
+ * 1. Создайте переменную и присвойте ей любую строку
  *
- * 2. Выведите в консоль строку
- * "My name is <name> <surname> and my favorite number is <favoriteNumber>"
+ * 2. Убедитесь что значение этой переменной НЕ является экземпляром String
+ * Используйте для этого оператор "instanceof"
+ *
+ * 3. Убедитесь что значение этой переменной имеет тип "string"
+ *
+ * 4. Создайте другую переменную и ее значением должно быть значение
+ * первой переменной заглавными буквами
+ *
+ * 5. Выведите в консоль значение второй переменной
  */
 
 
@@ -40,19 +44,18 @@
 
 
 
+// const myFavoriteSeason = 'summer'
 
+// console.log(myFavoriteSeason instanceof String)
 
+// console.log(typeof myFavoriteSeason)
 
+// const seasonToUpperCase = myFavoriteSeason.toUpperCase()
 
+// console.log(seasonToUpperCase)
 
-
-
-// const person = {
-//     name: 'Alex',
-//     surname: 'Song',
-//     favoriteNumber: 5,
-//   }
-  
-//   const personInfo = `My name is ${person.name} ${person.surname} and my favorite number is ${person.favoriteNumber}`
-  
-//   console.log(personInfo)
+// // СОЗДАНИЕ ЭКЗЕМПЛРЯРА String
+// const myString = new String('Bogdan')
+// console.log(myString instanceof String)
+// console.log(typeof myString)
+// console.log(myString.toUpperCase())
