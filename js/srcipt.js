@@ -1,12 +1,12 @@
-/** Перебор свойств объекта
+/** ЗАДАЧА 12 - Создание объекта
  *
- * 1. Создайте функцию "sumObjectValues", которая будет суммировать
- * все значения свойств, которые являются числами.
+ * 1. Создайте объект с тремя свойствами:
+ *  - name
+ *  - surname
+ *  - favoriteNumber
  *
- * 2. Сумму чисел необходимо вернуть из функции
- *
- * 3. Убедитесь, что итерация выполняется только
- * по собственным свойствам объекта
+ * 2. Выведите в консоль строку
+ * "My name is <name> <surname> and my favorite number is <favoriteNumber>"
  */
 
 
@@ -47,43 +47,12 @@
 
 
 
-
-
-
-
-/** Перебор свойств объекта
- *
- * 1. Создайте функцию "sumObjectValues", которая будет суммировать
- * все значения свойств, которые являются числами.
- *
- * 2. Сумму чисел необходимо вернуть из функции
- *
- * 3. Убедитесь, что итерация выполняется только
- * по собственным свойствам объекта
- */
-
-
-
-
-// const objectWithNumbers = {
-//   a: 10,
-//   b: 20,
-//   c: 'string',
-//   d: 12,
-// }
-
-// function sumObjectValues(numbers) {
-//   let sum = 0
-
-//   Object.keys(numbers).forEach((key) => {
-//     if (typeof numbers[key] === 'number') {
-//       sum += numbers[key]
-//     }
-//   })
-
-//   return sum
-// }
-
-// const result = sumObjectValues(objectWithNumbers)
-// console.log(result)
-//  /* 42 */
+// const person = {
+//     name: 'Alex',
+//     surname: 'Song',
+//     favoriteNumber: 5,
+//   }
+  
+//   const personInfo = `My name is ${person.name} ${person.surname} and my favorite number is ${person.favoriteNumber}`
+  
+//   console.log(personInfo)
