@@ -1,10 +1,10 @@
-/** Замена части строки
+/**  Создание массива
  *
- * 1. Создайте переменную и присвойте ей строку "Good Morning"
+ * 1. Создайте массив с тремя элементами разных типов
  *
- * 2. Замените "Morning" на "Evening" и присвойте результат новой переменной
+ * 2. Выведите в консоль первый элемент массива
  *
- * 3. Выведите значение второй переменной в консоль
+ * 3. Выведите в консоль длину массива
  */
 
 
@@ -52,10 +52,12 @@
 
 
 
+
+
+
+
 /**
- * const greeting = 'Good Morning'
-
-const updatedGreeting = greeting.replace('Morning', 'Evening')
-
-console.log(updatedGreeting)
+ * const myArray = [true, 15, null]
+ * console.log(myArray[0])
+ * console.log(myArray.length)
  */
