@@ -1,16 +1,10 @@
-/** Строка заглавными буквами
+/** ЗАДАЧА 15 - Замена части строки
  *
- * 1. Создайте переменную и присвойте ей любую строку
+ * 1. Создайте переменную и присвойте ей строку "Good Morning"
  *
- * 2. Убедитесь что значение этой переменной НЕ является экземпляром String
- * Используйте для этого оператор "instanceof"
+ * 2. Замените "Morning" на "Evening" и присвойте результат новой переменной
  *
- * 3. Убедитесь что значение этой переменной имеет тип "string"
- *
- * 4. Создайте другую переменную и ее значением должно быть значение
- * первой переменной заглавными буквами
- *
- * 5. Выведите в консоль значение второй переменной
+ * 3. Выведите значение второй переменной в консоль
  */
 
 
@@ -44,18 +38,24 @@
 
 
 
-// const myFavoriteSeason = 'summer'
 
-// console.log(myFavoriteSeason instanceof String)
 
-// console.log(typeof myFavoriteSeason)
 
-// const seasonToUpperCase = myFavoriteSeason.toUpperCase()
 
-// console.log(seasonToUpperCase)
 
-// // СОЗДАНИЕ ЭКЗЕМПЛРЯРА String
-// const myString = new String('Bogdan')
-// console.log(myString instanceof String)
-// console.log(typeof myString)
-// console.log(myString.toUpperCase())
+
+
+
+
+
+
+
+
+
+/**
+ * const greeting = 'Good Morning'
+
+const updatedGreeting = greeting.replace('Morning', 'Evening')
+
+console.log(updatedGreeting)
+ */
